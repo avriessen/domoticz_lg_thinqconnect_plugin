@@ -1,0 +1,8 @@
+.coverage
+venv/
+dist/
+wideq_state.json
+LGThinq_PAT.txt
+__pycache__
+.vscode/
+.idea/

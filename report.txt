@@ -1,0 +1,15 @@
+[arnoud@eowyn domoticz_lg_thinq_plugin]$ python example.py -c NL -l en-US
+2023-03-09 18:55:29 ERROR [wideq.example] wideq_state file not found. Trying to load default STATE_FILE: wideq_state.json
+2023-03-09 18:55:29 INFO [wideq.example] wideq_state will be loaded from: wideq_state.json
+2023-03-09 18:55:29 ERROR [wideq.example] No state file found (tried: '/home/arnoud/Public/Domoticz/domoticz_lg_thinq_plugin/wideq_state.json')
+Log in here:
+https://nl.m.lgaccount.com/spx/login/signIn?country=NL&language=en-US&svc_list=SVC202&client_id=LGAO221A02&division=ha&redirect_uri=https%3A%2F%2Fkr.m.lgaccount.com%2Flogin%2FiabClose&state=9455d846bea311ed8b802cf05d744deb&show_thirdparty_login=AMZ%2CFBK
+Then paste the URL where the browser is redirected:
+https://kr.m.lgaccount.com/login/iabClose?state=9455d846bea311ed8b802cf05d744deb&code=zUVK76605UckClAUZgeZLPLs1e4dmC&user_number=NL2303084633396&oauth2_backend_url=https%3A%2F%2Fgb.lgeapi.com%2F
+
+thinq2 devices: 3
+a041332e-efec-1600-af85-4cbad7843ac7: Studeerkamer (AC RAC_056905_WW / thinq2)
+ad95f0e3-e7fd-1c7e-b668-4cbad7845352: Slaapkamer (AC RAC_056905_WW / thinq2)
+1f6c6084-8231-129e-b6fb-4cbce9e79b27: Woonkamer (AC RAC_056905_WW / thinq2)
+2023-03-09 18:57:17 INFO [wideq.example] Wrote state file '/home/arnoud/Public/Domoticz/domoticz_lg_thinq_plugin/wideq_state.json'
+
